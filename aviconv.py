@@ -10,7 +10,7 @@ import os
 
 
 def amain(fn):
-	print os.getcwd()
+	# print os.getcwd()
 	templateLoader = jinja2.FileSystemLoader( searchpath=os.getcwd() )
 	templateEnv = jinja2.Environment( loader=templateLoader )
 
