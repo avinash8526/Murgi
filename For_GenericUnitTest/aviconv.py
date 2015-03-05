@@ -27,7 +27,7 @@ def amain(fn):
 	all_list = []
 	slist = []
 	xmldoc = minidom.parse('temp.xml')
-	itemlist = xmldoc.getElementsByTagName('UnitTestResult')
+	itemlist = xmldoc.getElementsByTagName('GenericTestResult')
 	testrun = xmldoc.getElementsByTagName('TestRun')
 	tid = testrun[0].attributes['id'].value
 	ru = testrun[0].attributes['runUser'].value

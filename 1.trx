@@ -1,0 +1,104 @@
+<TestRun id="781b0f34-f726-43ad-bae8-531f7e30b1a5" name="ering" runUser="ering" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Local Test Run" id="19431567-8539-422a-85d7-44ee4e166bda">
+    <Description>Test Results for myWSBA(FireFox)</Description>
+    <Deployment runDeploymentRoot="RunResult" />
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Completed">
+    <Counters total="5" executed="5" passed="3" error="0" failed="2" timeout="0" aborted="0" inconclusive="0" notRunnable="0" passedButRunAborted="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <Times creation="2015-02-18T21:19:19.0000000-08:00" queuing="2015-02-18T21:19:19.0000000-08:00" start="2015-02-18T21:19:19.0000000-08:00" finish="2015-02-18T21:22:25.3440759-08:00" />
+  <TestDefinitions>
+    <GenericTest id="6e8b7ba5-47a0-4ddf-8bab-6b0b82c90b5f" name="NavBar" storage="NavBar.tstest">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="0784c4e3-716c-45f4-9383-8d4bcf766eb7" />
+    </GenericTest>
+    <GenericTest id="897bef71-1ce2-4110-946d-324f4e3d8194" name="SideBar" storage="SideBar.tstest">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="1cf8934d-b8de-41ed-b3da-c98cc6826ad0" />
+    </GenericTest>
+    <GenericTest id="2b28f9d9-c170-4fa7-990c-1f0da27d4cff" name="Body" storage="Body.tstest">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="538a9784-1b4c-4fd3-9b73-7d35346b96bd" />
+    </GenericTest>
+    <GenericTest id="a81e81d8-6b21-49f0-a0bb-003e8e3c0422" name="LawyerDir" storage="LawyerDir.tstest">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="19b3fb41-ae2f-48e4-99c2-2e5ccf7db364" />
+    </GenericTest>
+    <GenericTest id="55120075-6dea-4395-a156-c699f6974c8c" name="DisciplineNotices" storage="DisciplineNotices.tstest">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="2db46227-95e1-498c-857c-4e619d54d9f7" />
+    </GenericTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList id="8c84fa94-04c1-424b-9868-57a2d4851a1d" name="Results Not in a List" />
+    <TestList id="19431567-8539-422a-85d7-44ee4e166bda" name="All Loaded Results" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="6e8b7ba5-47a0-4ddf-8bab-6b0b82c90b5f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" executionId="0784c4e3-716c-45f4-9383-8d4bcf766eb7" />
+    <TestEntry testId="897bef71-1ce2-4110-946d-324f4e3d8194" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" executionId="1cf8934d-b8de-41ed-b3da-c98cc6826ad0" />
+    <TestEntry testId="2b28f9d9-c170-4fa7-990c-1f0da27d4cff" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" executionId="538a9784-1b4c-4fd3-9b73-7d35346b96bd" />
+    <TestEntry testId="a81e81d8-6b21-49f0-a0bb-003e8e3c0422" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" executionId="19b3fb41-ae2f-48e4-99c2-2e5ccf7db364" />
+    <TestEntry testId="55120075-6dea-4395-a156-c699f6974c8c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" executionId="2db46227-95e1-498c-857c-4e619d54d9f7" />
+  </TestEntries>
+  <Results>
+    <GenericTestResult executionId="0784c4e3-716c-45f4-9383-8d4bcf766eb7" testId="6e8b7ba5-47a0-4ddf-8bab-6b0b82c90b5f" testName="NavBar" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" computerName="ITD-MXL4340VX6" duration="00:00:00.0279701" startTime="2015-02-18T21:19:19.0000000-08:00" endTime="2015-02-18T21:22:25.3440759-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed">
+      <Output>
+        <ErrorInfo>
+          <Message>ExecuteCommand failed!
+InError set by the client. Client Error:
+mozCommandProcessor: ProcessInformationCommand(): Document is not ready to retrieve its markup.
+BrowserCommand (Type:'Information',Info:'DocumentMarkup',Action:'NotSet',Target:'null',Data:'',ClientId:'c8ce1d08-f907-47fe-a2a4-21eef62cc3a5',HasFrames:'False',FramesInfo:'',TargetFrameIndex:'-1',InError:'True',Response:'mozCommandProcessor: ProcessInformationCommand(): Document is not ready to retrieve its markup.')
+InnerException: none.
+</Message>
+          <StackTrace>
+          </StackTrace>
+        </ErrorInfo>
+      </Output>
+    </GenericTestResult>
+    <GenericTestResult executionId="1cf8934d-b8de-41ed-b3da-c98cc6826ad0" testId="897bef71-1ce2-4110-946d-324f4e3d8194" testName="SideBar" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" computerName="ITD-MXL4340VX6" duration="00:00:00.0279701" startTime="2015-02-18T21:19:19.0000000-08:00" endTime="2015-02-18T21:22:25.3440759-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed">
+      <Output />
+    </GenericTestResult>
+    <GenericTestResult executionId="538a9784-1b4c-4fd3-9b73-7d35346b96bd" testId="2b28f9d9-c170-4fa7-990c-1f0da27d4cff" testName="Body" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" computerName="ITD-MXL4340VX6" duration="00:00:00.0279701" startTime="2015-02-18T21:19:19.0000000-08:00" endTime="2015-02-18T21:22:25.3440759-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed">
+      <Output />
+    </GenericTestResult>
+
+
+
+    
+    <GenericTestResult executionId="19b3fb41-ae2f-48e4-99c2-2e5ccf7db364" testId="a81e81d8-6b21-49f0-a0bb-003e8e3c0422" testName="LawyerDir" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" computerName="ITD-MXL4340VX6" duration="00:00:00.0279701" startTime="2015-02-18T21:19:19.0000000-08:00" endTime="2015-02-18T21:22:25.3440759-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed">
+      <Output />
+    </GenericTestResult>
+    <GenericTestResult executionId="2db46227-95e1-498c-857c-4e619d54d9f7" testId="55120075-6dea-4395-a156-c699f6974c8c" testName="DisciplineNotices" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" computerName="ITD-MXL4340VX6" duration="00:00:00.0279701" startTime="2015-02-18T21:19:19.0000000-08:00" endTime="2015-02-18T21:22:25.3440759-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed">
+      <Output>
+        <ErrorInfo>
+          <Message>Unable to locate element. Details: Attempting to find [Html] element using 
+Find logic 
+ (Html): [href 'Exact' DisciplineNotice.aspx] AND [tagname 'Exact' a]
+
+Unable to locate element. Search failed!
+
+Learn more about finding elements here:
+http://www.telerik.com/automated-testing-tools/support/documentation/user-guide/troubleshooting_guide/test-execution-problems/unable-to-locate-element.aspx</Message>
+          <StackTrace>
+          </StackTrace>
+        </ErrorInfo>
+      </Output>
+    </GenericTestResult>
+  </Results>
+</TestRun>
